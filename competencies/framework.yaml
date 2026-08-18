@@ -1,0 +1,15 @@
+framework: andragogy-pedagogy
+version: 0.1.0
+# Library-level source of truth for competency labels. Labels here win
+# over any session frontmatter. Link esco to the matching ESCO skill
+# URIs as the mapping work is done; null means "not yet mapped".
+competencies:
+  AP1:
+    label: Distinguishing pedagogy from andragogy
+    esco: null
+  AP2:
+    label: Applying adult learning theory in the clinic
+    esco: null
+  AP3:
+    label: Auditing one's own teaching defaults
+    esco: null
