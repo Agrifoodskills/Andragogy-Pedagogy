@@ -1,19 +1,26 @@
 # Attribution is configured PER LIBRARY, at creation. It identifies the
-# grant behind the CONTENT — not the tooling.
+# grant behind the CONTENT — not the tooling. The pane reads it from the
+# catalog, so the credit follows the library rather than living in code.
 #
-# The EU visibility rules apply: "Funded by the European Union" must be
-# accompanied by the OFFICIAL emblem, downloaded from the European
-# Commission's visual identity portal. Never a redrawn or recoloured
-# copy, and never a project logo standing in for it.
+# EU visibility rules, and why the logo settings are separate from the
+# text ones:
+#   - the emblem must be at least 1 cm high        -> logo_height_cm
+#   - the emblem must not be altered, so not faded -> logo_opacity: 1.0
+#   - the wording may be small and quiet           -> scale / opacity
 #
-# Drop the emblem at branding/eu-funded.png and uncomment `logo:` below.
+# Erasmus+ co-finances, so the statement is "Co-funded by the European
+# Union" and the emblem carries that exact wording. Do not swap in the
+# European Commission's institutional logo: that is the Commission's own
+# identity and implies it authored the work.
 
-text: "Funded by the European Union · Agreement No: 101183898-EDU-2024-PI-ALL-INNO"
+text: "Co-funded by the European Union · Agreement No: 101183898-EDU-2024-PI-ALL-INNO"
+logo: branding/eu-cofunded.png
 corner: bottom-right
 
-# Semi-transparent and small: present on every slide, but never
-# competing with the teaching content.
+# The wording: small and faded, so it never competes with teaching content.
 opacity: 0.45
 scale: 0.9
 
-# logo: branding/eu-funded.png
+# The emblem: full strength, at the regulatory minimum height.
+logo_height_cm: 1.0
+logo_opacity: 1.0
