@@ -1,0 +1,19 @@
+# Attribution is configured PER LIBRARY, at creation. It identifies the
+# grant behind the CONTENT — not the tooling.
+#
+# The EU visibility rules apply: "Funded by the European Union" must be
+# accompanied by the OFFICIAL emblem, downloaded from the European
+# Commission's visual identity portal. Never a redrawn or recoloured
+# copy, and never a project logo standing in for it.
+#
+# Drop the emblem at branding/eu-funded.png and uncomment `logo:` below.
+
+text: "Funded by the European Union · Agreement No: 101183898-EDU-2024-PI-ALL-INNO"
+corner: bottom-right
+
+# Semi-transparent and small: present on every slide, but never
+# competing with the teaching content.
+opacity: 0.45
+scale: 0.9
+
+# logo: branding/eu-funded.png
