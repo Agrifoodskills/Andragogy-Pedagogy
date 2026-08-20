@@ -19,7 +19,7 @@ dc:
 --- slide
 id: ap01-01
 layout: Title
-title: The paradigm shift — from pedagogy to andragogy
+title: The paradigm shift from pedagogy to andragogy
 subtitle: Module 1 · Andragogy in the veterinary clinic
 notes: |
   Welcome to this module on the paradigm shift from pedagogy to andragogy
