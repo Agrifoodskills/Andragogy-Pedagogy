@@ -1,0 +1,19 @@
+# The recipe book: what this course is and how it is delivered.
+# It holds no content — blocks do. See:
+# https://github.com/imbowen1973/FAIR/blob/main/docs/library-format.md
+
+id: andragogy-pedagogy
+title: Andragogy vs Pedagogy
+description: >-
+  Adult learning theory for clinical veterinary educators: how teaching
+  in the clinic differs from teaching in the classroom, and what to do
+  about it.
+
+structure:
+  - kind: module
+    title: The paradigm shift
+    children:
+      - block: 01-the-paradigm-shift-from-pedagogy-to
+  # Remaining modules land here as they are authored. The next one
+  # dissects Knowles' first two assumptions: self-concept and the
+  # learner's prior experience.
